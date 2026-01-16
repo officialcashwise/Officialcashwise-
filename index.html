@@ -482,6 +482,22 @@ footer a:hover {
         background-color: rgba(22, 163, 74, 0.3);
     }
 }
+    .native-banner-wrapper {
+    max-width: 1200px;      /* Adjust as needed */
+    margin: 40px auto;      /* Center horizontally with spacing */
+    overflow: hidden;       /* Prevent overflow if multiple ads */
+}
+#container-162b14ba8789d0f034cae9aca8942a79 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center multiple ads */
+    gap: 16px;               /* Space between ads */
+}
+#container-162b14ba8789d0f034cae9aca8942a79 iframe {
+    max-width: 280px;       /* Each ad width */
+    max-height: 250px;      /* Each ad height */
+    flex: 1 1 auto;
+}
 }
     </style>
 </head>
@@ -530,8 +546,10 @@ footer a:hover {
 </section>
 
 <!-- Native Banner Ad -->
-<script async="async" data-cfasync="false" src="https://pl28493415.effectivegatecpm.com/162b14ba8789d0f034cae9aca8942a79/invoke.js"></script>
-<div id="container-162b14ba8789d0f034cae9aca8942a79"></div>
+<div class="native-banner-wrapper">
+  <script async="async" data-cfasync="false" src="https://pl28493415.effectivegatecpm.com/162b14ba8789d0f034cae9aca8942a79/invoke.js"></script>
+  <div id="container-162b14ba8789d0f034cae9aca8942a79"></div>
+</div>
 
 <!-- Featured Categories -->
 <section class="categories" id="categories">
